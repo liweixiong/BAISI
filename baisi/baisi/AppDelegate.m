@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LWXTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //1.创建一个窗口
+    UIWindow * window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+   
+    self.window=window;
+    //2.设置窗口的根控制器
+    LWXTabBarController *tabVC=[[LWXTabBarController alloc] init];
+    window.rootViewController =tabVC;
+    //3.显示窗口
+    [window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LWXPublishViewController.h
 //  baisi
 //
 //  Created by Mac on 16/12/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LWXPublishViewController : UIViewController
 
 @end
-
