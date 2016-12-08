@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LWXTabBarController.h"
+#import "LWXAdViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,8 +23,14 @@
    
     self.window=window;
     //2.设置窗口的根控制器
-    LWXTabBarController *tabVC=[[LWXTabBarController alloc] init];
-    window.rootViewController =tabVC;
+#warning   打包上架的时候换过来
+    LWXTabBarController* rootVc = [[LWXTabBarController alloc] init];
+
+//    LWXTabBarController *tabVC=[[LWXTabBarController alloc] init];
+//    LWXAdViewController* rootVc = [[LWXAdViewController alloc] init];
+#warning  新帖结束改过来
+    rootVc.selectedIndex = 1;
+    window.rootViewController =rootVc;
     //3.显示窗口
     [window makeKeyAndVisible];
     

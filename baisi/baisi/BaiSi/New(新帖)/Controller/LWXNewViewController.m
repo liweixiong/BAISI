@@ -7,7 +7,8 @@
 //
 
 #import "LWXNewViewController.h"
-
+#import "UIBarButtonItem+LWXitem.h"
+#import "LWXSubTagController.h"
 @interface LWXNewViewController ()
 
 @end
@@ -16,22 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setUpNav];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setUpNav{
+    
+    //titleView
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+    //左侧按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonitemWithImageName:@"MainTagSubIcon" HightlightName:@"MainTagSubIconClick" target:self action:@selector(tagBtnClick)];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)tagBtnClick{
+    
+    LWXSubTagController* vc = [[LWXSubTagController alloc] init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
-*/
 
 @end

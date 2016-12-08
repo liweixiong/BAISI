@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401A1911DF6F4D40078490C /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18A1DF6F4D40078490C /* LaunchImage-568h@2x.png */; };
+		0401A1921DF6F4D40078490C /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18B1DF6F4D40078490C /* LaunchImage-700-568h@2x.png */; };
+		0401A1931DF6F4D40078490C /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18C1DF6F4D40078490C /* LaunchImage-700@2x.png */; };
+		0401A1941DF6F4D40078490C /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18D1DF6F4D40078490C /* LaunchImage-800-667h@2x.png */; };
+		0401A1951DF6F4D40078490C /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18E1DF6F4D40078490C /* LaunchImage-800-Portrait-736h@3x.png */; };
+		0401A1961DF6F4D40078490C /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A18F1DF6F4D40078490C /* LaunchImage.png */; };
+		0401A1971DF6F4D40078490C /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0401A1901DF6F4D40078490C /* LaunchImage@2x.png */; };
+		0401A1A61DF6FAE60078490C /* LWXAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401A1A41DF6FAE60078490C /* LWXAdViewController.m */; };
+		0401A1A71DF6FAE60078490C /* LWXAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401A1A51DF6FAE60078490C /* LWXAdViewController.xib */; };
+		046994651DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046994641DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.m */; };
+		046994681DF8F5C9007D15D4 /* LWXAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046994671DF8F5C9007D15D4 /* LWXAdModel.m */; };
+		0485C4CD1DF90B110080FD00 /* NSString+LWXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485C4CC1DF90B110080FD00 /* NSString+LWXURL.m */; };
+		0485C4D01DF943EA0080FD00 /* LWXSubTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485C4CF1DF943EA0080FD00 /* LWXSubTagController.m */; };
+		0485C4D31DF949060080FD00 /* LWXSubtagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485C4D21DF949060080FD00 /* LWXSubtagModel.m */; };
 		04A2E7A81DF505AF0039A8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2E7A71DF505AF0039A8DD /* main.m */; };
 		04A2E7AB1DF505AF0039A8DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2E7AA1DF505AF0039A8DD /* AppDelegate.m */; };
 		04A2E7B11DF505AF0039A8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2E7AF1DF505AF0039A8DD /* Main.storyboard */; };
@@ -20,9 +34,36 @@
 		04A2E7E91DF51CA90039A8DD /* LWXPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2E7E81DF51CA90039A8DD /* LWXPublishViewController.m */; };
 		04CF1B791DF54B42009A3936 /* UIImage+LWXRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B781DF54B42009A3936 /* UIImage+LWXRender.m */; };
 		04CF1B7C1DF555C9009A3936 /* UITabBarItem+LWXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B7B1DF555C9009A3936 /* UITabBarItem+LWXFont.m */; };
+		04CF1B821DF589D4009A3936 /* UIBarButtonItem+LWXitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B811DF589D4009A3936 /* UIBarButtonItem+LWXitem.m */; };
+		04CF1B8A1DF592A8009A3936 /* LWXSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B891DF592A8009A3936 /* LWXSettingController.m */; };
+		04CF1B8D1DF59762009A3936 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B8C1DF59762009A3936 /* UIView+frame.m */; };
+		04CF1B901DF597E8009A3936 /* LWXNaVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B8F1DF597E8009A3936 /* LWXNaVViewController.m */; };
+		04CF1B931DF5A01A009A3936 /* LWXNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B921DF5A01A009A3936 /* LWXNavBar.m */; };
+		04CF1B961DF5A04A009A3936 /* LWXBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF1B951DF5A04A009A3936 /* LWXBackView.m */; };
+		743915D4ED9EE3ABAE8D9E66 /* libPods-baisi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887546FB5043EE9DF1A50 /* libPods-baisi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0401A18A1DF6F4D40078490C /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		0401A18B1DF6F4D40078490C /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		0401A18C1DF6F4D40078490C /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		0401A18D1DF6F4D40078490C /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		0401A18E1DF6F4D40078490C /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		0401A18F1DF6F4D40078490C /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		0401A1901DF6F4D40078490C /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		0401A1A31DF6FAE60078490C /* LWXAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXAdViewController.h; sourceTree = "<group>"; };
+		0401A1A41DF6FAE60078490C /* LWXAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXAdViewController.m; sourceTree = "<group>"; };
+		0401A1A51DF6FAE60078490C /* LWXAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWXAdViewController.xib; sourceTree = "<group>"; };
+		046994631DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+LWXManager.h"; sourceTree = "<group>"; };
+		046994641DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+LWXManager.m"; sourceTree = "<group>"; };
+		046994661DF8F5C9007D15D4 /* LWXAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXAdModel.h; sourceTree = "<group>"; };
+		046994671DF8F5C9007D15D4 /* LWXAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXAdModel.m; sourceTree = "<group>"; };
+		0485C4CB1DF90B110080FD00 /* NSString+LWXURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LWXURL.h"; sourceTree = "<group>"; };
+		0485C4CC1DF90B110080FD00 /* NSString+LWXURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LWXURL.m"; sourceTree = "<group>"; };
+		0485C4CE1DF943EA0080FD00 /* LWXSubTagController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXSubTagController.h; sourceTree = "<group>"; };
+		0485C4CF1DF943EA0080FD00 /* LWXSubTagController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXSubTagController.m; sourceTree = "<group>"; };
+		0485C4D11DF949060080FD00 /* LWXSubtagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXSubtagModel.h; sourceTree = "<group>"; };
+		0485C4D21DF949060080FD00 /* LWXSubtagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXSubtagModel.m; sourceTree = "<group>"; };
 		04A2E7A31DF505AF0039A8DD /* baisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A2E7A71DF505AF0039A8DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A2E7A91DF505AF0039A8DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +88,22 @@
 		04CF1B781DF54B42009A3936 /* UIImage+LWXRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LWXRender.m"; sourceTree = "<group>"; };
 		04CF1B7A1DF555C9009A3936 /* UITabBarItem+LWXFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+LWXFont.h"; sourceTree = "<group>"; };
 		04CF1B7B1DF555C9009A3936 /* UITabBarItem+LWXFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+LWXFont.m"; sourceTree = "<group>"; };
+		04CF1B801DF589D4009A3936 /* UIBarButtonItem+LWXitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LWXitem.h"; sourceTree = "<group>"; };
+		04CF1B811DF589D4009A3936 /* UIBarButtonItem+LWXitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LWXitem.m"; sourceTree = "<group>"; };
+		04CF1B831DF58F4E009A3936 /* baisi.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baisi.pch; sourceTree = "<group>"; };
+		04CF1B881DF592A8009A3936 /* LWXSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXSettingController.h; sourceTree = "<group>"; };
+		04CF1B891DF592A8009A3936 /* LWXSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXSettingController.m; sourceTree = "<group>"; };
+		04CF1B8B1DF59762009A3936 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		04CF1B8C1DF59762009A3936 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		04CF1B8E1DF597E8009A3936 /* LWXNaVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXNaVViewController.h; sourceTree = "<group>"; };
+		04CF1B8F1DF597E8009A3936 /* LWXNaVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXNaVViewController.m; sourceTree = "<group>"; };
+		04CF1B911DF5A01A009A3936 /* LWXNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXNavBar.h; sourceTree = "<group>"; };
+		04CF1B921DF5A01A009A3936 /* LWXNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXNavBar.m; sourceTree = "<group>"; };
+		04CF1B941DF5A04A009A3936 /* LWXBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXBackView.h; sourceTree = "<group>"; };
+		04CF1B951DF5A04A009A3936 /* LWXBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXBackView.m; sourceTree = "<group>"; };
+		8BD887546FB5043EE9DF1A50 /* libPods-baisi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baisi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1920C044149334E4E513C68 /* Pods-baisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baisi.release.xcconfig"; path = "Pods/Target Support Files/Pods-baisi/Pods-baisi.release.xcconfig"; sourceTree = "<group>"; };
+		C8DEA9AB44E0BB6C5913C993 /* Pods-baisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baisi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-baisi/Pods-baisi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +111,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743915D4ED9EE3ABAE8D9E66 /* libPods-baisi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0401A1891DF6F4D40078490C /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				0401A18A1DF6F4D40078490C /* LaunchImage-568h@2x.png */,
+				0401A18B1DF6F4D40078490C /* LaunchImage-700-568h@2x.png */,
+				0401A18C1DF6F4D40078490C /* LaunchImage-700@2x.png */,
+				0401A18D1DF6F4D40078490C /* LaunchImage-800-667h@2x.png */,
+				0401A18E1DF6F4D40078490C /* LaunchImage-800-Portrait-736h@3x.png */,
+				0401A18F1DF6F4D40078490C /* LaunchImage.png */,
+				0401A1901DF6F4D40078490C /* LaunchImage@2x.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
+		0401A1981DF6F5FD0078490C /* Ad(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				0401A1991DF6F5FD0078490C /* Controller */,
+				0401A19D1DF6F5FD0078490C /* Model */,
+				0401A19E1DF6F5FD0078490C /* View */,
+			);
+			path = "Ad(广告)";
+			sourceTree = "<group>";
+		};
+		0401A1991DF6F5FD0078490C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0401A1A31DF6FAE60078490C /* LWXAdViewController.h */,
+				0401A1A41DF6FAE60078490C /* LWXAdViewController.m */,
+				0401A1A51DF6FAE60078490C /* LWXAdViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0401A19D1DF6F5FD0078490C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046994661DF8F5C9007D15D4 /* LWXAdModel.h */,
+				046994671DF8F5C9007D15D4 /* LWXAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0401A19E1DF6F5FD0078490C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04A2E79A1DF505AF0039A8DD = {
 			isa = PBXGroup;
 			children = (
 				04A2E7A51DF505AF0039A8DD /* baisi */,
 				04A2E7A41DF505AF0039A8DD /* Products */,
+				CA772ED617DBF0CBB730EF9B /* Pods */,
+				4457AD9D4011455271A96B4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +192,7 @@
 				04A2E7BF1DF51ABF0039A8DD /* BaiSi */,
 				04A2E7A91DF505AF0039A8DD /* AppDelegate.h */,
 				04A2E7AA1DF505AF0039A8DD /* AppDelegate.m */,
+				04CF1B831DF58F4E009A3936 /* baisi.pch */,
 				04A2E7AF1DF505AF0039A8DD /* Main.storyboard */,
 				04A2E7B21DF505AF0039A8DD /* Assets.xcassets */,
 				04A2E7B71DF505AF0039A8DD /* Info.plist */,
@@ -94,6 +205,7 @@
 		04A2E7A61DF505AF0039A8DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0401A1891DF6F4D40078490C /* 启动图片 */,
 				04A2E7A71DF505AF0039A8DD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -102,6 +214,7 @@
 		04A2E7BF1DF51ABF0039A8DD /* BaiSi */ = {
 			isa = PBXGroup;
 			children = (
+				0401A1981DF6F5FD0078490C /* Ad(广告) */,
 				04CF1B751DF54A7B009A3936 /* Other */,
 				04A2E7C81DF51ABF0039A8DD /* Main */,
 				04A2E7C01DF51ABF0039A8DD /* Essence(精华) */,
@@ -109,6 +222,7 @@
 				04A2E7CC1DF51ABF0039A8DD /* Mine(我的) */,
 				04A2E7D01DF51ABF0039A8DD /* New(新帖) */,
 				04A2E7D41DF51ABF0039A8DD /* Publish(发布) */,
+				04CF1B841DF59262009A3936 /* Setting(设置) */,
 			);
 			path = BaiSi;
 			sourceTree = "<group>";
@@ -194,6 +308,8 @@
 			children = (
 				04A2E7DB1DF51BA50039A8DD /* LWXTabBarController.h */,
 				04A2E7DC1DF51BA50039A8DD /* LWXTabBarController.m */,
+				04CF1B8E1DF597E8009A3936 /* LWXNaVViewController.h */,
+				04CF1B8F1DF597E8009A3936 /* LWXNaVViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +324,10 @@
 		04A2E7CB1DF51ABF0039A8DD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04CF1B911DF5A01A009A3936 /* LWXNavBar.h */,
+				04CF1B921DF5A01A009A3936 /* LWXNavBar.m */,
+				04CF1B941DF5A04A009A3936 /* LWXBackView.h */,
+				04CF1B951DF5A04A009A3936 /* LWXBackView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -260,6 +380,8 @@
 			children = (
 				04A2E7E41DF51C2D0039A8DD /* LWXNewViewController.h */,
 				04A2E7E51DF51C2D0039A8DD /* LWXNewViewController.m */,
+				0485C4CE1DF943EA0080FD00 /* LWXSubTagController.h */,
+				0485C4CF1DF943EA0080FD00 /* LWXSubTagController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +389,8 @@
 		04A2E7D21DF51ABF0039A8DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0485C4D11DF949060080FD00 /* LWXSubtagModel.h */,
+				0485C4D21DF949060080FD00 /* LWXSubtagModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,8 +450,66 @@
 				04CF1B781DF54B42009A3936 /* UIImage+LWXRender.m */,
 				04CF1B7A1DF555C9009A3936 /* UITabBarItem+LWXFont.h */,
 				04CF1B7B1DF555C9009A3936 /* UITabBarItem+LWXFont.m */,
+				04CF1B801DF589D4009A3936 /* UIBarButtonItem+LWXitem.h */,
+				04CF1B811DF589D4009A3936 /* UIBarButtonItem+LWXitem.m */,
+				04CF1B8B1DF59762009A3936 /* UIView+frame.h */,
+				04CF1B8C1DF59762009A3936 /* UIView+frame.m */,
+				046994631DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.h */,
+				046994641DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.m */,
+				0485C4CB1DF90B110080FD00 /* NSString+LWXURL.h */,
+				0485C4CC1DF90B110080FD00 /* NSString+LWXURL.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		04CF1B841DF59262009A3936 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				04CF1B851DF59262009A3936 /* Controller */,
+				04CF1B861DF59262009A3936 /* Model */,
+				04CF1B871DF59262009A3936 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		04CF1B851DF59262009A3936 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04CF1B881DF592A8009A3936 /* LWXSettingController.h */,
+				04CF1B891DF592A8009A3936 /* LWXSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04CF1B861DF59262009A3936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CF1B871DF59262009A3936 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4457AD9D4011455271A96B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD887546FB5043EE9DF1A50 /* libPods-baisi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA772ED617DBF0CBB730EF9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8DEA9AB44E0BB6C5913C993 /* Pods-baisi.debug.xcconfig */,
+				C1920C044149334E4E513C68 /* Pods-baisi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,9 +519,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A2E7BA1DF505AF0039A8DD /* Build configuration list for PBXNativeTarget "baisi" */;
 			buildPhases = (
+				C819C10FDDF76C923C20C282 /* [CP] Check Pods Manifest.lock */,
 				04A2E79F1DF505AF0039A8DD /* Sources */,
 				04A2E7A01DF505AF0039A8DD /* Frameworks */,
 				04A2E7A11DF505AF0039A8DD /* Resources */,
+				21A8F55294FFCD51853F65E2 /* [CP] Embed Pods Frameworks */,
+				ACF8B4FFC85EF3F92F216B2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,26 +575,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A2E7BE1DF50F300039A8DD /* Images.xcassets in Resources */,
+				0401A1921DF6F4D40078490C /* LaunchImage-700-568h@2x.png in Resources */,
+				0401A1961DF6F4D40078490C /* LaunchImage.png in Resources */,
 				04A2E7B31DF505AF0039A8DD /* Assets.xcassets in Resources */,
+				0401A1931DF6F4D40078490C /* LaunchImage-700@2x.png in Resources */,
+				0401A1951DF6F4D40078490C /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				0401A1A71DF6FAE60078490C /* LWXAdViewController.xib in Resources */,
+				0401A1911DF6F4D40078490C /* LaunchImage-568h@2x.png in Resources */,
+				0401A1941DF6F4D40078490C /* LaunchImage-800-667h@2x.png in Resources */,
 				04A2E7B11DF505AF0039A8DD /* Main.storyboard in Resources */,
+				0401A1971DF6F4D40078490C /* LaunchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A8F55294FFCD51853F65E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baisi/Pods-baisi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF8B4FFC85EF3F92F216B2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baisi/Pods-baisi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C819C10FDDF76C923C20C282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A2E79F1DF505AF0039A8DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CF1B961DF5A04A009A3936 /* LWXBackView.m in Sources */,
 				04CF1B791DF54B42009A3936 /* UIImage+LWXRender.m in Sources */,
+				046994681DF8F5C9007D15D4 /* LWXAdModel.m in Sources */,
 				04CF1B7C1DF555C9009A3936 /* UITabBarItem+LWXFont.m in Sources */,
 				04A2E7E61DF51C2D0039A8DD /* LWXNewViewController.m in Sources */,
+				0485C4CD1DF90B110080FD00 /* NSString+LWXURL.m in Sources */,
 				04A2E7AB1DF505AF0039A8DD /* AppDelegate.m in Sources */,
 				04A2E7E01DF51BD20039A8DD /* LWXFriendTrendViewController.m in Sources */,
+				046994651DF838B6007D15D4 /* AFHTTPSessionManager+LWXManager.m in Sources */,
 				04A2E7DA1DF51B560039A8DD /* LWXEssenceViewController.m in Sources */,
+				04CF1B931DF5A01A009A3936 /* LWXNavBar.m in Sources */,
+				04CF1B901DF597E8009A3936 /* LWXNaVViewController.m in Sources */,
+				0401A1A61DF6FAE60078490C /* LWXAdViewController.m in Sources */,
+				0485C4D31DF949060080FD00 /* LWXSubtagModel.m in Sources */,
+				04CF1B8A1DF592A8009A3936 /* LWXSettingController.m in Sources */,
 				04A2E7A81DF505AF0039A8DD /* main.m in Sources */,
+				0485C4D01DF943EA0080FD00 /* LWXSubTagController.m in Sources */,
+				04CF1B821DF589D4009A3936 /* UIBarButtonItem+LWXitem.m in Sources */,
 				04A2E7DD1DF51BA50039A8DD /* LWXTabBarController.m in Sources */,
+				04CF1B8D1DF59762009A3936 /* UIView+frame.m in Sources */,
 				04A2E7E91DF51CA90039A8DD /* LWXPublishViewController.m in Sources */,
 				04A2E7E31DF51C070039A8DD /* LWXMineViewController.m in Sources */,
 			);
@@ -519,9 +772,12 @@
 		};
 		04A2E7BB1DF505AF0039A8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DEA9AB44E0BB6C5913C993 /* Pods-baisi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = baisi/baisi.pch;
 				INFOPLIST_FILE = baisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzjbwm.baisi;
@@ -531,9 +787,12 @@
 		};
 		04A2E7BC1DF505AF0039A8DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1920C044149334E4E513C68 /* Pods-baisi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = baisi/baisi.pch;
 				INFOPLIST_FILE = baisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzjbwm.baisi;

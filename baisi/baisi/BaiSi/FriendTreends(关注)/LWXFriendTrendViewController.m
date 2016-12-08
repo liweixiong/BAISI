@@ -7,31 +7,35 @@
 //
 
 #import "LWXFriendTrendViewController.h"
-
+#import "UIBarButtonItem+LWXitem.h"
 @interface LWXFriendTrendViewController ()
 
 @end
 
 @implementation LWXFriendTrendViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setUpNav];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+-(void)setUpNav{
+    
+    //titleView
+    self.navigationItem.title = @"我的关注";
+    
+    //左侧按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonitemWithImageName:@"friendsRecommentIcon" HightlightName:@"friendsRecommentIcon-click" target:self action:@selector(addFriend)];
+    
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)addFriend{
+    
+    
+    
 }
-*/
-
 @end

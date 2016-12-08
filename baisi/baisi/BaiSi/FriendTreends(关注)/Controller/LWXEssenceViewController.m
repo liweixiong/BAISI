@@ -7,6 +7,7 @@
 //
 
 #import "LWXEssenceViewController.h"
+#import "UIBarButtonItem+LWXitem.h"
 
 @interface LWXEssenceViewController ()
 
@@ -16,22 +17,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setUpNav];
+  }
+
+/**
+ 设置导航控制器
+ */
+-(void)setUpNav{
+    //titleView
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+    //左侧按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonitemWithImageName:@"nav_item_game_iconN" HightlightName:@"nav_item_game_click_iconN" target:self action:@selector(gameBtnClick)];
+    
+    
+    
+    //右侧按钮
+    self.navigationItem.rightBarButtonItem =[UIBarButtonItem barButtonitemWithImageName:@"navigationButtonRandomN" HightlightName:@"navigationButtonRandomClickN" target:self action:@selector(randomBtnClick)];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)gameBtnClick{
+    NSLog(@"游戏按钮被点击");
+    
+    
 }
-*/
+-(void)randomBtnClick{
+    NSLog(@"随机按钮被点击");
+    
+    
+}
 
 @end

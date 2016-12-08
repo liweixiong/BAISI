@@ -1,0 +1,21 @@
+//
+//  BuDeJie20.pch
+//  BuDeJie20
+//
+//  Created by xiaomage on 2016/12/4.
+//  Copyright © 2016年 xiaomage. All rights reserved.
+//
+
+
+
+// 放我们的头文件,宏,常量
+
+#import "UIBarButtonItem+LWXitem.h"
+
+#ifdef DEBUG
+// 调试状态
+#define lwxLog(...)    NSLog(__VA_ARGS__);
+#else
+// release
+#define lwxLog(...)
+#endif
